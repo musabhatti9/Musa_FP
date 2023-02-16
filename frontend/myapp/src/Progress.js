@@ -12,11 +12,11 @@ function Progress() {
         setdata(data)
     }
     useEffect(() => {
-        async function getapi() {
-            const response = await fetch('http://localhost:8000/show')
-            const data = await response.json();
-            setdata(data)
-        }
+        // async function getapi() {
+        //     const response = await fetch('http://localhost:8000/show')
+        //     const data = await response.json();
+        //     setdata(data)
+        // }
         getapi()
     }, [])
 
