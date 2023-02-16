@@ -1,0 +1,112 @@
+.logo{
+    font-size: 200px;
+}
+.Logo{
+    height: 73vh;
+    display: flex;
+    align-items: center;
+}
+.bg{
+    /* background-image:  linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), url(pictures/bg.jpg); */
+    background-image: url("pictures/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 75vh;
+    width: 100%;
+}
+.diet{
+    background-image: url("pictures/diet.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 73vh;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+.Diet{
+    font-size: 150px;
+}
+.Register{
+    height: 73vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.Card{
+    width: 30vw;
+    height: auto;
+    
+}
+
+@media only screen and (min-width: 1048px) {
+   #article{
+    display: contents;
+   }
+  }
+  @media only screen and (max-width: 1048px) {
+    #article{
+     display: none;
+    }
+   }
+   .ActivityMain{
+    height: 78vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   .Activity{
+    height: 60vh;
+    width: 50%;
+    border-radius: 10px;
+   }
+   .Fit{
+    font-size: 95px;
+   }
+   .GoalMain{
+    height: 78vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   .Goal{
+    height: auto;
+    width: 50%;
+    border-radius: 10px;
+   }
+   .Fit{
+    font-size: 80px;
+   }
+   .StartMain{
+    height: 78vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   .MyactivityMain{
+    height: 78vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   .Myactivity{
+    height: auto;
+    width: 50%;
+    border-radius: 10px;
+   }
+   .EndMain{
+    height: 78vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   .Progress{
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   .Progress .card{
+    width: 70%;
+   }
